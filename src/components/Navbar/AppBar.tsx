@@ -73,7 +73,7 @@ const ColorButton = styled(Button)<ButtonProps>(({ theme }) => ({
   // textAlign: "start",
   width: "100%",
   marginBottom: 5,
-  height: 50,
+  minHeight: 90,
   "&:hover": {
     backgroundColor: "rgba(128, 0, 2, 0.6)",
   },
@@ -124,7 +124,7 @@ export default function SearchAppBar() {
           <Toolbar>
             <Box sx={{ flexGrow: 0.5 }} className="">
               <Typography variant="h6" noWrap component="div">
-                STUDENT PROJECTS
+                LEARNING PATH
               </Typography>
             </Box>
 
