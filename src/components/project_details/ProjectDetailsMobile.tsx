@@ -141,12 +141,13 @@ const ProjectDetailsMobile: React.FC<Projects> = ({ project }) => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             minHeight: 400,
-            minWidth: 400,
+            minWidth: 380,
             backgroundColor: "white",
+            // backgroundColor: "white",
             borderRadius: 5,
             boxShadow:
               "2px 11px 30px -2px rgba(0,0,0,0.1), 0px 10px 15px -3px rgba(0,0,0,0.1)",
-            padding: 20,
+            padding: 40,
             textAlign: "center",
           }}
         >
