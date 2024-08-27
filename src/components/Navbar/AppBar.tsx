@@ -21,6 +21,8 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../features/store";
 import { useDispatch } from "react-redux";
 import { addSearchText } from "../../features/search_slice";
+import ProjectDetails from "../project_details/ProjectDetails";
+import ProjectDetailsMobile from "../project_details/ProjectDetailsMobile";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -211,23 +213,25 @@ export default function SearchAppBar() {
                   {project.name}
                 </ColorButton>
                 {buttonIds.includes(project.id.toLocaleString()) && (
-                  <div
-                    className="project-content"
-                    style={{
-                      backgroundColor: "whitesmoke",
-                      color: "#333333",
-                      borderRadius: 3,
-                      padding: 10,
-                      marginBottom: 20,
-                      marginLeft: 10,
-                    }}
-                  >
-                    <strong>{project.project_description}</strong>
-                    <p>{project.content.backround_of_study.paragraph1}</p>
-                    <Button variant="contained" endIcon={<DescriptionIcon />}>
-                      Get Project Document
-                    </Button>
-                  </div>
+                  // <div className="div"></div>
+                  <ProjectDetailsMobile  project={project} />
+                  // <div
+                  //   className="project-content"
+                  //   style={{
+                  //     backgroundColor: "whitesmoke",
+                  //     color: "#333333",
+                  //     borderRadius: 3,
+                  //     padding: 10,
+                  //     marginBottom: 20,
+                  //     marginLeft: 10,
+                  //   }}
+                  // >
+                  //   <strong>{project.project_description}</strong>
+                  //   <p>{project.content.backround_of_study.paragraph1}</p>
+                  //   <Button variant="contained" endIcon={<DescriptionIcon />}>
+                  //     Get Project Document
+                  //   </Button>
+                  // </div>
                 )}
               </div>
             ))}
