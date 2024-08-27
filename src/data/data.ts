@@ -217,6 +217,79 @@ export const projects: ProjectData[] = [
 
         }
     },
+
+    {
+        id: 7,
+        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION    AMONGST WOMEN OF CHILDBEARING",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Abortion is safe when done with method recommended by WHO that is appropriate to the pregnancy duration and when the person carrying out the abortion has the necessary skill while unsafe abortion can be defined as a procedure for terminating a pregnancy by persons lacking the necessary skills or in an environment not in comfirmity with the minimal medicine standards or both (WHO,2014)",
+                paragraph2: " About 97% of all global abortions between 2010 and 2014 occurred in low income countries . The percentage of unsafe abortions are higher in countries with highly restrictive abortion laws when compared with countries with more liberal laws (Gantara ,2017). However,it must be noted that even in countries where abortion laws are liberal (The World Abortion law,2018).Some women rely on unsafe abortions because of existing additional barrires such as ;onerous facility requirements ,waiting periods and parental consent laws (yanowsetal etal2017). Though evidence available shows that self management of abortions with the use of abortion pills (mistoprostol alone or mistoprostol in combination with mifepristone )can reduce maternal mortality and morbidity ,inadequate information can lead to wrong dosages which will subsequently end in unsafe abortions(WHO,2014)",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To assess the knowledge of the women of childbearing age (15-45 years) on unsafe abortion in central Hospital",
+                paragraph2: "To identify factors influencing the practice of unsafe abortion among women of childbearing age (15-45 years) in central Hospital",
+                paragraph3: "To highlight measures on the prevention of unsafe abortion among women of childbearing age (15-45 years) in central hospital",
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the level of knowledge on unsafe abortion among women of childbearing age (15-45 years ) in central Hospital",
+                paragraph2: "What are the factors influencing the practice of unsafe abortion among women of childbearing age (15-45 years) in central Hospital ",
+                paragraph3: "What are the measures on the prevention of unsafe abortion among the women of childbearing age (15-45 years ) in central Hospital",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "What are the measures on the prevention of unsafe abortion among the women of childbearing age (15-45 years ) in central Hospital",
+                paragraph2: "Abiodun O.M,Balogun O.R ,Adeleke N.A,(2013). Complications of unsafe abortion in south west.",
+                paragraph3: "Anibal Faundes ,Rodica Comendant ,Berna Dilbaz,Guyo jaldesa,Robert leke ,Basab Mukherjee,(2020).The FIGO initiative for the prevention of unsafe abortion.",
+                paragraph4: "Akinlusi F.M,Kabiru A.R,Adeniyi A.A,Oreose D.I,Tawaqualit A.O and Sadah A.B,(2018).Complicated Unsafe Abortion in Nigeria teaching Hospital: Pattern of morbidity and mortality.",
+            },
+         
+
+        }
+    },
+    {
+        id: 8,
+        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION    AMONGST WOMEN OF CHILDBEARING",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Caesarean Section is considered to the relatively safe by medical practitioners, though it does in fact pose a higher risk for complication than vaginal delivery, ( Hall, J.E 2015).",
+                paragraph2: "Caesarean Section (CS), is defined as the birth of the fetus through a surgical incision on the abdominal wall and uterine wall, is among the most widely practiced surgical procedure worldwide (Eur J, 2019)",
+                paragraph3: "The incidence of caesarean section as an option of delivery is steadily rising (Isah, Adewole, Zaman, 2018). Improved skill in anaesthesia, availability of blood transfusion and antibiotics are among the reasons for the increased safety and uptake of caesarean section as an option of delivery. The other factors responsible for the increase in caesarean section rates are the decline in both operative vaginal delivery and vaginal breach delivery, fear of litigation in obstetric practice, identification of at risk mothers and wider use of repeated caesarean section in cases with previous caesarean delivery (Isah, Adewole, Zaman, 2018)",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To determine the attitude of pregnant women towards caesarean section",
+                paragraph2: "To ascertain the factors influencing pregnant women's attitude towards caesarean section",
+                paragraph3: "To ascertain if pregnant women are aware of the factors contributing to caesarean section use",
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the attitude of pregnant women towards caesarean section?",
+                paragraph2: "What are those factors that influence the Pregnant women's attitude towards caesarean section?",
+                paragraph3: "What are the measures needed to improve the attitude of pregnant women towards caesarean section?",
+                paragraph4: "Are pregnant women aware of the various factors contributing to caesarean section use?",
+            },
+            reference:{
+                paragraph1: "Abebe, F.E., Gebeyehu,A., Kidane,A.N., and Eyassu, G.A. (2016). Factors leading to caesarean section delivery at Felegehiwot Referral Hospital, Northwest Ethiopia: a retrospective record review. Reproductive Health. 13(6). 2015.",
+                paragraph2: "Akinlusi M.F., Olayiwola A.A., Rabiu K.A., Oshodi A.Y., Ottun A.T., and Shittu A.K. (2023). Prior childbirth experience and attitude towards subsequent vagina birth after one vagina delivery in Lagos, Nigeria: A cross sectional study. BMC Pregnancy and Childbirth, 23(1), 82.",
+                paragraph3: "Begum T., Ellis C., Sarker M., Rostoker J.F., Rahman A., Anwar I., and Reichenbach L. (2018). A qualitative study to explore the attitude of women and obstetricians towards caesarean delivery in rural Bangladesh. BMC pregnancy and childbirth, 18(2), 368.",
+                paragraph4: "Betran, A.P., Torlani, M.R., Zhang, J.J., Gulmezoglu, A. M., and WHO working group on caesarean section. (2016). WHO statement on caesarean section rates. British Journal of Obstetrics and Gynaecology, 123(5), 667-670.",
+            },
+         
+
+        }
+    },
     // {
     //     id: 4,
     //     name: "",
