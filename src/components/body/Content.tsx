@@ -18,6 +18,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import ProjectDetails from "../project_details/ProjectDetails";
 import SearchItems from "../search_container/SearchItems";
+import useScreenSize from "../../helper/screen_size";
 
 const style = {
   position: "absolute" as "absolute",
@@ -36,6 +37,17 @@ const Content = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const { width, height } = useScreenSize();
+
+
+
+  const isMobile = width < 768; // Mobile devices (width less than 768px)
+  const isTablet = width >= 768 && width <= 1024; // Tablet devices (width between 768px and 1024px)
+  const isDesktop = width > 1024; // Desktop devices (width greater than 1024px)
+
+  const isMobileOrTablet = isMobile || isTablet; // True if the device is mobile or tablet
+
+
   const projects: ProjectData[] = useSelector(
     (state: RootState) => state.projectReducer.projects
   );
@@ -47,7 +59,7 @@ const Content = () => {
   const project = projects[0];
 
   return (
-    <div className="content-container">
+    <div className="content-container" style={{margin: isMobile ? 0 : 50, marginTop:20}}>
       {projects.length > 0  && searchText.length < 1 ? (
         <ProjectDetails/>
   
@@ -56,7 +68,7 @@ const Content = () => {
       <SearchItems/>
       :
       (
-        <div className="div" style={{backgroundColor:"pink", width:"100%"}}>
+        <div className="div" style={{}}>
           <div className="header-text">Student Projects</div>
           <div className="divider"></div>
           <p className="content-text">

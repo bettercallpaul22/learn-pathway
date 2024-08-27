@@ -17,7 +17,7 @@ const Home = () => {
   const isTabletOrDesktop = isDesktop || isTablet; // True if the device is mobile or tablet
 
   return (
-    <div className={isMobileOrTablet ?'home2' : 'home'}>
+    <div className={isMobileOrTablet ?'home2' : 'home'} style={{marginLeft:isMobile ? 20 : 50, marginRight:isMobile ? 20 : 50}}>
      {isDesktop && (<SideMenu/>)}
       <Content/>
      {isDesktop && (<RightSideMenu/>)}
