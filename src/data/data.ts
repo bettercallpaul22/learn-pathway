@@ -183,7 +183,7 @@ export const projects: ProjectData[] = [
     },
     {
         id: 6,
-        name:"Knowledge Of Pregnant Women Attending Antenatal Clinic In Central Hospital Sapele Towards The Utilization Of Prevention Of Mother To Child Transmission Services",
+        name:"Knowledge Of Pregnant Women Attending Antenatal Clinic In Central Hospital.",
         project_year: "2023",
         project_description: "",
         project_price:"4000",

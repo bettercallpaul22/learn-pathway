@@ -140,7 +140,7 @@ export default function SearchAppBar() {
               </Box>
             )}
 
-            <Box sx={{ flexGrow: 0.5 }}>
+          {!isMobile &&(  <Box sx={{ flexGrow: 0.5 }}>
               <Search >
                 <SearchIconWrapper>
                   <SearchIcon />
@@ -155,7 +155,7 @@ export default function SearchAppBar() {
                   }}
                 />
               </Search>
-            </Box>
+            </Box>)}
 
             {/* Mobile menu icon */}
             {isMobileOrTablet && (

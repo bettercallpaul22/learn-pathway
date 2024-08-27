@@ -110,20 +110,6 @@ const Content = () => {
       className="content-container"
       style={{ margin: isMobile ? 0 : 50, marginTop: 20 }}
     >
-    { isMobile &&( <Search style={{marginBottom:20}}>
-        <SearchIconWrapper>
-          <SearchIcon />
-        </SearchIconWrapper>
-        <StyledInputBase
-           placeholder="Search projects..."
-           inputProps={{ "aria-label": "search" }}
-           value={searchInput}
-           onChange={(e)=>{
-             setSearchInput(e.target.value)
-             dispatch(addSearchText(e.target.value))
-           }}
-        />
-      </Search>)}
       {projects.length > 0 && searchText.length < 1 ? (
         <ProjectDetails />
       ) : searchText.length > 0 ? (
