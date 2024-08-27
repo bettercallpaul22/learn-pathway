@@ -108,8 +108,10 @@ const Content = () => {
   return (
     <div
       className="content-container"
-      style={{ margin: isMobile ? 0 : 50, marginTop: 20 }}
+      style={{ margin: isMobile ? 0 : 50, marginTop: 20, backgroundColor:"" }}
     >
+   
+
       {projects.length > 0 && searchText.length < 1 ? (
         <ProjectDetails />
       ) : searchText.length > 0 ? (
