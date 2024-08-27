@@ -60,7 +60,6 @@ const SideMenu = () => {
     dispatch(addToList(newProject));
   };
 
-  // Calculate the starting and ending index for the current page
   const startIndex = (page - 1) * projectsPerPage;
   const endIndex = startIndex + projectsPerPage;
   const currentProjects = projects.slice(startIndex, endIndex);
