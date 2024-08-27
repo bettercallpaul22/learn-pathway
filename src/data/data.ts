@@ -220,7 +220,7 @@ export const projects: ProjectData[] = [
 
     {
         id: 7,
-        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION    AMONGST WOMEN OF CHILDBEARING",
+        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION AMONGST WOMEN OF CHILDBEARING",
         project_year: "2023",
         project_description: "",
         project_price:"4000",
@@ -256,7 +256,7 @@ export const projects: ProjectData[] = [
     },
     {
         id: 8,
-        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION    AMONGST WOMEN OF CHILDBEARING",
+        name:"THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION AMONGST WOMEN OF CHILDBEARING",
         project_year: "2023",
         project_description: "",
         project_price:"4000",
@@ -283,8 +283,82 @@ export const projects: ProjectData[] = [
             reference:{
                 paragraph1: "Abebe, F.E., Gebeyehu,A., Kidane,A.N., and Eyassu, G.A. (2016). Factors leading to caesarean section delivery at Felegehiwot Referral Hospital, Northwest Ethiopia: a retrospective record review. Reproductive Health. 13(6). 2015.",
                 paragraph2: "Akinlusi M.F., Olayiwola A.A., Rabiu K.A., Oshodi A.Y., Ottun A.T., and Shittu A.K. (2023). Prior childbirth experience and attitude towards subsequent vagina birth after one vagina delivery in Lagos, Nigeria: A cross sectional study. BMC Pregnancy and Childbirth, 23(1), 82.",
-                paragraph3: "Begum T., Ellis C., Sarker M., Rostoker J.F., Rahman A., Anwar I., and Reichenbach L. (2018). A qualitative study to explore the attitude of women and obstetricians towards caesarean delivery in rural Bangladesh. BMC pregnancy and childbirth, 18(2), 368.",
-                paragraph4: "Betran, A.P., Torlani, M.R., Zhang, J.J., Gulmezoglu, A. M., and WHO working group on caesarean section. (2016). WHO statement on caesarean section rates. British Journal of Obstetrics and Gynaecology, 123(5), 667-670.",
+                paragraph3: "Begum T., Ellis C., Sarker M., Rostoker J.F., Rahman A., Anwar I., and Reichenbach L. (2018). A qualitative study to explore the attitude of women and obstetricians towards caesarean delivery in rural Bangladesh. BMC pregnancy and childbirth, 18(2), 368.",
+                paragraph4: "Betran, A.P., Torlani, M.R., Zhang, J.J., Gulmezoglu, A. M., and WHO working group on caesarean section. (2016). WHO statement on caesarean section rates. British Journal of Obstetrics and Gynaecology, 123(5), 667-670.",
+            },
+         
+
+        }
+    },
+    {
+        id: 9,
+        name:"PERCEPTION AND SATISFACTION OF PREGNANT WOMEN TOWARDS THE QUALITY OF ANTENATAL CARE SERVICES",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Antenatal care refers to the care given to a pregnant woman from the time that conception is confirmed until the beginning of labor. It involves the midwife providing a woman centered approach to the care of the woman and her family by sharing the information with the woman to facilitate her to make informed choices about her care (Abdou Panneh 2017). Moreover, antenatal care also known as prenatal care is a type of preventive health care. It is provided in the form of medical checkups, of recommendations on managing a healthy lifestyle and the provision of medical information such as maternal physiological changes in pregnancy, biological changes and prenatal nutrition including prenatal vitamins, which prevents potential health problems  throughout the course of the pregnancy and promotes the mother and child’s health alike.(WHO 2021).",
+                paragraph2: "",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To determine the perception of pregnant women towards the quality of antenatal care services rendered by nurses/midwives in Central Hospital. It involves the midwife providing a woman centered approach to the care of the woman and her family by sharing the information with the woman to facilitate her to make informed choices about her care (Abdou Panneh 2017). Moreover, antenatal care also known as prenatal care is a type of preventive health care. It is provided in the form of medical checkups, of recommendations on managing a healthy lifestyle and the provision of medical information such as maternal physiological changes in pregnancy, biological changes and prenatal nutrition including prenatal vitamins, which prevents potential health problems  throughout the course of the pregnancy and promotes the mother and child’s health alike.(WHO 2021).",
+                paragraph2: "To examine the processes of antenatal care services provided by nurses/midwives in Central Hospital ",
+                paragraph3: "To determine client’s satisfaction with antenatal services provided by nurses/midwives in Central Hospital",
+           
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "what is the perception of pregnant women towards the quality of antenatal care services in Central Hospital",
+                paragraph2: "What are the processes of antenatal services provided by nurses/midwives in Central Hospital?",
+                paragraph3: "What is the level of client’s satisfaction with antenatal services provided by nurses/midwives in Central Hospital?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "What is the level of client’s satisfaction with antenatal services provided by nurses/midwives in Central Hospital",
+                paragraph2: "Adesoka F.O. [2014]. Reproductive health for all ages [3rd ed] Ekiti,Bosem Publishers Nigeria Ltd.",
+                paragraph3: "Bbaale E. Factors influencing timing and frequency of antenatal care in Uganda. Australas Med J. 2013; 4[8]:431- 8. Doi:10:4066/AMJ.2013.729.Epub 2013 Aug 31. PMID: 23393530;PMCID:PMC3562883.",
+                paragraph4: "Chinwenbua,A., Iheanacho,P,&Agbapuonwu,N,[2014].Research & Statistics in Nursing & Related professions Beginners Guide [2nd ed] Enugu El Demark Publishers Nigeria Ltd.",
+            },
+         
+
+        }
+    },
+    {
+        id: 10,
+        name:"KNOWLEDGE AND UTILIZATION OF POST ABORTION CARE SERVICES AMONG WOMEN OF REPRODUCTIVE AGE 15-49 YEARS IN CENTRAL HOSPITAL",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Post abortion care (PAC) is a range of services provided to women suffering from complications of spontaneous or induced abortions. These services include both medical and emotional support, addressing complications and helping women to resume their normal reproductive health ( WHO, 2022). Post abortion care (PAC) is widely recognized as a critical practice to address complications related to miscarriage and incomplete abortion and reduce repeat abortions. As such, post abortion care has been embraced as an important intervention to improve maternal health ( Owolabi, Onikepe, 2019).. It involves the midwife providing a woman centered approach to the care of the woman and her family by sharing the information with the woman to facilitate her to make informed choices about her care (Abdou Panneh 2017). Moreover, antenatal care also known as prenatal care is a type of preventive health care. It is provided in the form of medical checkups, of recommendations on managing a healthy lifestyle and the provision of medical information such as maternal physiological changes in pregnancy, biological changes and prenatal nutrition including prenatal vitamins, which prevents potential health problems  throughout the course of the pregnancy and promotes the mother and child’s health alike.(WHO 2021).",
+                paragraph2: "",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To determine the perception of pregnant women towards the quality of antenatal care services rendered by nurses/midwives in Central Hospital. It involves the midwife providing a woman centered approach to the care of the woman and her family by sharing the information with the woman to facilitate her to make informed choices about her care (Abdou Panneh 2017). Moreover, antenatal care also known as prenatal care is a type of preventive health care. It is provided in the form of medical checkups, of recommendations on managing a healthy lifestyle and the provision of medical information such as maternal physiological changes in pregnancy, biological changes and prenatal nutrition including prenatal vitamins, which prevents potential health problems  throughout the course of the pregnancy and promotes the mother and child’s health alike.(WHO 2021).",
+                paragraph2: "The care was introduced in the public health systems around the world since the 1994 International conference on population and development and was programmed to meet the needs of abortion complications and at the same time be cost effective.",
+                paragraph3: "",
+           
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the level of knowledge of women of reproductive age ( 15-49 years) regarding post abortion care services in central hospital",
+                paragraph2: "What are the factors which hinders the utilization of post abortion care services among women of reproductive age (15-49 years) in central hospital",
+                paragraph3: "What are the ways to improve the utilization of post abortion care services among women of reproductive age (15_49 years) in central hospital",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "Abiola, (2018) knowledge, attitude and practice of post abortion care among women in lagos mainland Local Government Area, J clin sci. 2018;13:82-7",
+                paragraph2: "Adinma RD (2015) post abortion care services in Nigeria from preconception to postpartum. Alan Guttmacher institute (AGI).",
+                paragraph3: "Amna Arshad, (2023) improving safe post-abortion care practices: A study on interventions implemented by Ipas Pakistan.10.3389/fpubh.2013.1004381",
+                paragraph4: "Arrington Lauren.(2016) post abortion care: 20years of strong evidence on emergency treatment, family planning, other programming components. Glo health scipract. 2016;4(3):481-494.http://dx.doi.org/10.9745,GHSP-D-16-00052",
             },
          
 
