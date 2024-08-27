@@ -19,6 +19,11 @@ import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import ProjectDetails from "../project_details/ProjectDetails";
 import SearchItems from "../search_container/SearchItems";
 import useScreenSize from "../../helper/screen_size";
+import { Search } from "@mui/icons-material";
+import SearchIcon from "@mui/icons-material/Search";
+import { styled, alpha } from "@mui/material/styles";
+import InputBase from "@mui/material/InputBase";
+import { addSearchText } from "../../features/search_slice";
 
 const style = {
   position: "absolute" as "absolute",
@@ -38,7 +43,7 @@ const Content = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const { width, height } = useScreenSize();
-
+  const [searchInput, setSearchInput] = React.useState("")
 
 
   const isMobile = width < 768; // Mobile devices (width less than 768px)
@@ -46,7 +51,6 @@ const Content = () => {
   const isDesktop = width > 1024; // Desktop devices (width greater than 1024px)
 
   const isMobileOrTablet = isMobile || isTablet; // True if the device is mobile or tablet
-
 
   const projects: ProjectData[] = useSelector(
     (state: RootState) => state.projectReducer.projects
@@ -58,16 +62,73 @@ const Content = () => {
 
   const project = projects[0];
 
+  const Search = styled("div")(({ theme }) => ({
+    position: "relative",
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: alpha(theme.palette.error.light, 0.25),
+    // backgroundColor: alpha(theme.palette.common.white, 0.15),
+    "&:hover": {
+      backgroundColor: alpha(theme.palette.primary.main, 0.25),
+    },
+    marginLeft: 0,
+    width: "100%",
+    [theme.breakpoints.up("sm")]: {
+      marginLeft: theme.spacing(1),
+      width: "auto",
+    },
+  }));
+
+  const SearchIconWrapper = styled("div")(({ theme }) => ({
+    padding: theme.spacing(0, 2),
+    height: "100%",
+    position: "absolute",
+    pointerEvents: "none",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  }));
+
+  const StyledInputBase = styled(InputBase)(({ theme }) => ({
+    color: "inherit",
+    width: "100%",
+    "& .MuiInputBase-input": {
+      padding: theme.spacing(1, 1, 1, 0),
+      // vertical padding + font size from searchIcon
+      paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+      transition: theme.transitions.create("width"),
+      [theme.breakpoints.up("sm")]: {
+        width: "12ch",
+        "&:focus": {
+          width: "20ch",
+        },
+      },
+    },
+  }));
+
   return (
-    <div className="content-container" style={{margin: isMobile ? 0 : 50, marginTop:20}}>
-      {projects.length > 0  && searchText.length < 1 ? (
-        <ProjectDetails/>
-  
-      ) : 
-      searchText.length > 0 ?
-      <SearchItems/>
-      :
-      (
+    <div
+      className="content-container"
+      style={{ margin: isMobile ? 0 : 50, marginTop: 20 }}
+    >
+    { isMobile &&( <Search style={{marginBottom:20}}>
+        <SearchIconWrapper>
+          <SearchIcon />
+        </SearchIconWrapper>
+        <StyledInputBase
+           placeholder="Search projects..."
+           inputProps={{ "aria-label": "search" }}
+           value={searchInput}
+           onChange={(e)=>{
+             setSearchInput(e.target.value)
+             dispatch(addSearchText(e.target.value))
+           }}
+        />
+      </Search>)}
+      {projects.length > 0 && searchText.length < 1 ? (
+        <ProjectDetails />
+      ) : searchText.length > 0 ? (
+        <SearchItems />
+      ) : (
         <div className="div" style={{}}>
           <div className="header-text">Student Projects</div>
           <div className="divider"></div>
@@ -134,9 +195,8 @@ const Content = () => {
 
 export default Content;
 
-
-
-  {/* <Button
+{
+  /* <Button
             color="error"
             className="dismiss-button"
             variant="outlined"
@@ -146,6 +206,9 @@ export default Content;
             }}
           >
             Close
-          </Button> */}
+          </Button> */
+}
 
-          {/* <Chip className="dismiss-button" label="Clickable" variant="outlined" /> */}
+{
+  /* <Chip className="dismiss-button" label="Clickable" variant="outlined" /> */
+}

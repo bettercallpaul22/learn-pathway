@@ -141,7 +141,7 @@ export default function SearchAppBar() {
             )}
 
             <Box sx={{ flexGrow: 0.5 }}>
-              <Search>
+              <Search >
                 <SearchIconWrapper>
                   <SearchIcon />
                 </SearchIconWrapper>
