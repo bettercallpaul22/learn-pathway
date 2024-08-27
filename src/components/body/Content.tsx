@@ -56,7 +56,7 @@ const Content = () => {
       <SearchItems/>
       :
       (
-        <div className="div">
+        <div className="div" style={{backgroundColor:"pink", width:"100%"}}>
           <div className="header-text">Student Projects</div>
           <div className="divider"></div>
           <p className="content-text">
