@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ComingSoon.scss';
+import useScreenSize from '../../helper/screen_size';
 
 const calculateTimeLeft = (targetDate: Date) => {
   const difference = +targetDate - +new Date();
@@ -10,14 +11,24 @@ const calculateTimeLeft = (targetDate: Date) => {
     seconds: 0,
   };
 
+//   if (difference > 0) {
+//     timeLeft = {
+//       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+//       hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+//       minutes: Math.floor((difference / 1000 / 60) % 60),
+//       seconds: Math.floor((difference / 1000) % 60),
+//     };
+//   }
+
   if (difference > 0) {
     timeLeft = {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((difference / 1000 / 60) % 60),
-      seconds: Math.floor((difference / 1000) % 60),
+      days: Math.floor(difference / (1000 * 3600 * 240 * 24)), // Total days
+      hours: Math.floor((difference / (1000 * 120 * 60)) % 24), // Remaining hours in a day
+      minutes: Math.floor((difference / 1000 / 60) % 60), // Remaining minutes
+      seconds: Math.floor((difference / 1000) % 60) // Remaining seconds
     };
   }
+  
 
   return timeLeft;
 };
@@ -25,6 +36,7 @@ const calculateTimeLeft = (targetDate: Date) => {
 const ComingSoon: React.FC = () => {
   const targetDate = new Date('2024-12-31T00:00:00');
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(targetDate));
+  const { width, height } = useScreenSize();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,25 +46,31 @@ const ComingSoon: React.FC = () => {
     return () => clearTimeout(timer);
   }, [timeLeft, targetDate]);
 
+  const isMobile = width < 768; // Mobile devices (width less than 768px)
+  const isTablet = width >= 768 && width <= 1024; // Tablet devices (width between 768px and 1024px)
+  const isDesktop = width > 1024; // Desktop devices (width greater than 1024px)
+  const isMobileOrTablet = isMobile || isTablet; // True if the device is mobile or tablet
+
+
   return (
-    <div className="coming-soon-container">
+    <div className="coming-soon-container" style={{ }}>
       <h1>Coming Soon!</h1>
       <p>We are working hard to launch more projects. Please check back!</p>
-      <div className="countdown">
+      <div className="countdown" style={{  }}>
         <div className="time-box">
-          <span className="number">{timeLeft.days}</span>
+          <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.days}</span>
           <span className="label">Days</span>
         </div>
         <div className="time-box">
-          <span className="number">{timeLeft.hours}</span>
+          <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.hours}</span>
           <span className="label">Hours</span>
         </div>
         <div className="time-box">
-          <span className="number">{timeLeft.minutes}</span>
+          <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.minutes}</span>
           <span className="label">Minutes</span>
         </div>
         <div className="time-box">
-          <span className="number">{timeLeft.seconds}</span>
+          <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.seconds}</span>
           <span className="label">Seconds</span>
         </div>
       </div>
