@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider } from "react-router-dom";
+import { Link, RouterProvider } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -8,6 +8,9 @@ import { createBrowserRouter } from "react-router-dom";
 import DrawerAppBar from "./components/Navbar/AppBar";
 import SearchAppBar from "./components/Navbar/AppBar";
 import Project from "./pages/project/Project";
+import TestPage from "./pages/TestPage";
+import About from "./pages/about/About";
+import ProjectDetails from "./pages/projectDetails/ProjectDetails";
 
 const App = () => {
   const Layout = () => {
@@ -23,24 +26,16 @@ const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />,
-      children: [
-        {
-          path: "/home",
-          element: <Home/>
-        },
-        {
-          path: "/project",
-          element: <Project/>
-        },
-      ],
+      element:<Layout/>,
     },
-
-    // {
-    //   path: "/project",
-    //   element: <Project/>
-    // },
+    {
+      // make it dynamic with id to project details page
+      path: "project-details/:projectId",
+      element: <ProjectDetails/>
+    },
   ]);
+
+
 
   return <RouterProvider router={router} />;
 };

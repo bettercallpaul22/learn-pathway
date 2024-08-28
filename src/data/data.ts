@@ -1,7 +1,7 @@
 import { ProjectData } from "../model";
 
 
-export const projects: ProjectData[] = [
+export const nursing_projects: ProjectData[] = [
     {
         id: 1,
         name: "Awareness and Prevention of Anaemia in Pregnancy Among Pregnant Women",

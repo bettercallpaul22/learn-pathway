@@ -16,7 +16,7 @@ import {
   Button,
   ButtonProps,
 } from "@mui/material";
-import { projects } from "../../data/data";
+import { nursing_projects } from "../../data/data";
 import { useSelector } from "react-redux";
 import { RootState } from "../../features/store";
 import { useDispatch } from "react-redux";
@@ -202,7 +202,7 @@ export default function SearchAppBar() {
         {isMobileOrTablet && showAppMenu ? (
         <div className={showAppMenu ? "appbar-menu" : "appbar-menu-hide"}>
           <div className="">
-            {projects.map((project) => (
+            {nursing_projects.map((project) => (
               <div className="" style={{}}>
                 <ColorButton
                   endIcon={ buttonIds.includes(project.id.toLocaleString()) ? <ArrowForwardIosIcon /> : <DescriptionIcon />}

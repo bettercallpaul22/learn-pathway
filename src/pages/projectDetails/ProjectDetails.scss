@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+
+
+.project-details-main{
+    font-size: $font-size-mobile-medium;
+
+    @media (min-width: $mobile-breakpoint) {
+        font-size: $font-size-tablet-medium;
+      }
+  
+      @media (min-width: $tablet-breakpoint) {
+        font-size: $font-size-desktop-medium;
+      }
+
+.content{
+    height: 90vh;
+    overflow-y: scroll;
+    // background-color: bisque;
+    display: flex;
+    margin-bottom: 50px;
+
+
+    .left-side{
+        position: absolute;
+        right: 50px;
+        top: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

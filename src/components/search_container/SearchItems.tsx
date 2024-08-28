@@ -2,7 +2,7 @@ import React from "react";
 import "./SearchItems.scss";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import { projects } from "../../data/data";
+import { nursing_projects } from "../../data/data";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../features/store";
 import { ProjectData } from "../../model";
@@ -18,7 +18,7 @@ const SearchItems = () => {
     (state: RootState) => state.searchReducer.searchText
   );
 
-  const filteredSearch = projects.filter((project) =>
+  const filteredSearch = nursing_projects.filter((project) =>
     project.name.toLocaleLowerCase().includes(searchText.toLocaleLowerCase())
   );
 

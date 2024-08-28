@@ -37,7 +37,6 @@ const ProjectDetails = () => {
 
   return (
     <div className="project-details-container">
-      {/* <Chip className="dismiss-button" label="Clickable" variant="outlined" /> */}
       <Fab
         onClick={handleResetState}
         className="dismiss-button"
