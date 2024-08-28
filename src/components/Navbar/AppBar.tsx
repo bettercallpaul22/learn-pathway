@@ -23,6 +23,8 @@ import { useDispatch } from "react-redux";
 import { addSearchText } from "../../features/search_slice";
 import ProjectDetails from "../project_details/ProjectDetails";
 import ProjectDetailsMobile from "../project_details/ProjectDetailsMobile";
+import { departments } from "../../data/department";
+import { NavLink } from "react-router-dom";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -202,19 +204,23 @@ export default function SearchAppBar() {
         {isMobileOrTablet && showAppMenu ? (
         <div className={showAppMenu ? "appbar-menu" : "appbar-menu-hide"}>
           <div className="">
-            {nursing_projects.map((project) => (
-              <div className="" style={{}}>
+            {departments.map((dept) => (
+              <NavLink 
+              to={`project-details`} 
+              state={{mobileState:dept}}
+              className="" style={{}}
+              >
                 <ColorButton
-                  endIcon={ buttonIds.includes(project.id.toLocaleString()) ? <ArrowForwardIosIcon /> : <DescriptionIcon />}
-                  onClick={() => handleButtonClick(project.id.toLocaleString())}
-                  key={project.id}
+                  endIcon={ buttonIds.includes(dept.id) ? <ArrowForwardIosIcon /> : <DescriptionIcon />}
+                  onClick={() => handleButtonClick(dept.id)}
+                  key={dept.id}
                   variant="contained"
                 >
-                  {project.name}
+                  {dept.name}
                 </ColorButton>
-                {buttonIds.includes(project.id.toLocaleString()) && (
+                {/* {buttonIds.includes(dept.id.toLocaleString()) && (
                   // <div className="div"></div>
-                  <ProjectDetailsMobile  project={project} />
+                  <ProjectDetailsMobile  project={dept} />
                   // <div
                   //   className="project-content"
                   //   style={{
@@ -232,8 +238,8 @@ export default function SearchAppBar() {
                   //     Get Project Document
                   //   </Button>
                   // </div>
-                )}
-              </div>
+                )} */}
+              </NavLink>
             ))}
           </div>
         </div>

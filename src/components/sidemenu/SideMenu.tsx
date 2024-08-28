@@ -94,8 +94,7 @@ const departmentsSliceArr: DepartmentType[] = useSelector(
       <div className="div">
         {departments.map((dept) => (
           <div
-            key={dept.id} // Add a key prop for better rendering
-            // className={ "side-sub-menu"}
+            key={dept.id} 
             className={
               departmentsSliceArr[0]?.id !== dept.id
                 ? "side-sub-menu"

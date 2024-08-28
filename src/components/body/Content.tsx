@@ -84,12 +84,7 @@ const Content = () => {
   const endIndex = startIndex + projectsPerPage;
   const currentProjects = departments[0]?.projects.slice(startIndex, endIndex);
 
-  useEffect(() => {
-    //  currentProjects = []
-  }, [departments]);
 
-  console.log("departments", departments);
-  console.log("currentPage", currentProjects);
 
   return (
     <div className="content-main-container">

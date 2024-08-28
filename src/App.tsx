@@ -11,6 +11,8 @@ import Project from "./pages/project/Project";
 import TestPage from "./pages/TestPage";
 import About from "./pages/about/About";
 import ProjectDetails from "./pages/projectDetails/ProjectDetails";
+import MobileContent from "./components/content/MobileContent";
+import ProjectDetailsMobile from "./pages/projectDetails/ProjectDetailsMobile";
 
 const App = () => {
   const Layout = () => {
@@ -33,6 +35,17 @@ const App = () => {
       path: "project-details/:projectId",
       element: <ProjectDetails/>
     },
+    {
+      // make it dynamic with id to project details page
+      path: "project-details",
+      element: <MobileContent/>
+    },
+    {
+      // make it dynamic with id to project details page
+      path: "project-details/project-details/mobile-project-details/:id",
+      element: <ProjectDetails/>
+    },
+    // project-details/project-details/mobile-project-details/1
   ]);
 
 
