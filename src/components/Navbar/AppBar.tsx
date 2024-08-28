@@ -25,6 +25,7 @@ import ProjectDetails from "../project_details/ProjectDetails";
 import ProjectDetailsMobile from "../project_details/ProjectDetailsMobile";
 import { departments } from "../../data/department";
 import { NavLink } from "react-router-dom";
+import siteLogo from "../../assets/images/learn-pathway-high-resolution-logo.png"
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -126,11 +127,22 @@ export default function SearchAppBar() {
           style={{ backgroundColor: "#DC143C" }}
         >
           <Toolbar>
-            <Box sx={{ flexGrow: 0.5 }} className="">
+            <div  className="" style={{
+              display:"flex",
+              alignItems:"center",
+              gap:"10px",
+              marginRight:100,
+              cursor:"pointer",
+              
+            }}>
               <Typography variant="h6" noWrap component="div">
-                LEARNING PATH
+                Learning
               </Typography>
-            </Box>
+              <img src={siteLogo} height={50} width={50} alt="sitelogo" style={{borderRadius:"50%"}} />
+              <Typography variant="h6" noWrap component="div">
+                Path
+              </Typography>
+            </div>
 
             {!isMobileOrTablet && (
               <Box sx={{ flexGrow: 1 }}>
