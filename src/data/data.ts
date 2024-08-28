@@ -438,6 +438,43 @@ export const nursing_projects: ProjectData[] = [
 
         }
     },
+    {
+        id: 13,
+        name:"KNOWLEDGE AND PRACTICE OF SELF-BREAST EXAMINATION AMONG STUDENT MIDWIVES IN STATE SCHOOL",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Screening for early detection and diagnosis of health conditions is an essential principle in public health. So, self-breast examination (SBE), mammography and clinical breast examination (CBE), are assumed and attested to be suitable and effective techniques of ensuring early detection of breast abnormalities ( Wouha, Ekeleme, and Uche 2021).",
+                paragraph2: " Self- breast examination, according to WHO (2022), is an inspection of one’s breast that women do on themselves to help increase breast awareness, by using one’s eyes and hands to determine if there are any changes in the look and feel of the breasts. The practice of self-breast examination globally, In Africa as well as, Nigeria has not been encouraging though, just because the knowledge towards it is also poor (Seifil and Mekonon 2021).",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To assess the knowledge of student midwives on self-breast examination in State school of midwifery Sapele.",
+                paragraph2: "To ascertain the practice of self-breast examination among student midwives in State school of midwifery Sapele.",
+                paragraph3: "To highlight measures needed to promote the practice self-breast examination among student midwives in State school of midwifery Sapele.",
+           
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the knowledge of students towards self-breast examination in State school of midwifery Sapele. ",
+                paragraph2: "What is the rate at which self-breast examination is been practiced among student midwives in State School of midwifery Sapele.",
+                paragraph3: "What are the measures needed to promote the practice self-breast examination among student midwives in State School of midwifery Sapele. ",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "Self- breast examination, according to WHO (2022), is an inspection of one’s breast that women do on themselves to help increase breast awareness, by using one’s eyes and hands to determine if there are any changes in the look and feel of the breasts. The practice of self-breast examination globally, In Africa as well as, Nigeria has not been encouraging though, just because the knowledge towards it is also poor (Seifil and Mekonon 2021).",
+                paragraph2: "American cancer society surveillance Research, 2015. WWW. Cancer. Org/research/acspc-044552. Pdf.",
+                paragraph3: "Asmare, K, Birhanu, Y, and Warko, Z. (2022) Knowledge, Attitude and Practice towards self-breast examination and associated factors among women in Gondar Town, North West Ethiopia, 2021: A community based study. BMC women’s health, 22(174), 1-14 https://dio.org/10.1186/s12905-022-01764-4.",
+                paragraph4: "",
+            },
+         
+
+        }
+    },
     // {
     //     id: 11,
     //     name:"",
