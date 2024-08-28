@@ -220,7 +220,7 @@ export const nursing_projects: ProjectData[] = [
 
     {
         id: 7,
-        name: "THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION AMONGST WOMEN OF CHILDBEARING",
+        name: "The Knowledge and Practice of Unsafe Abortion Amongst Women of Childbearing",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -256,7 +256,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 8,
-        name: "THE KNOWLEDGE AND PRACTICE OF UNSAFE ABORTION AMONGST WOMEN OF CHILDBEARING",
+        name: "The Knowledge and Practice of Unsafe Abortion Amongst Women of Childbearing",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -292,7 +292,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 9,
-        name: "PERCEPTION AND SATISFACTION OF PREGNANT WOMEN TOWARDS THE QUALITY OF ANTENATAL CARE SERVICES",
+        name: "Perception and Satisfaction of Pregnant Women Towards the Quality of Antenatal Care Services",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -329,7 +329,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 10,
-        name: "KNOWLEDGE AND UTILIZATION OF POST ABORTION CARE SERVICES AMONG WOMEN OF REPRODUCTIVE AGE 15-49 YEARS IN CENTRAL HOSPITAL",
+        name: "Knowledge and Utilization of Post Abortion Care Services Among Women of Reproductive Age 15-49 Years in Central Hospital",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -366,7 +366,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 11,
-        name: "KNOWLEDGE OF PREGNANT WOMEN ATTENDING ANTENATAL CLINIC IN CENTRAL HOSPITAL SAPELE TOWARDS THE UTILIZATION OF PREVENTION OF MOTHER TO CHILD TRANSMISSION SERVICES",
+        name: "Knowledge of Pregnant Women Attending Antenatal Clinic in Central Hospital Sapele Towards the Utilization of Prevention of Mother to Child Transmission Services",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -403,7 +403,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 12,
-        name: "PERCEPTION AND ACCEPTANCE OF CAESAREAN SECTION AMONG PREGNANT WOMEN IN CENTRAL HOSPITAL SAPELE.",
+        name: "Perception and Acceptance of Caesarean Section Among Pregnant Women in Central Hospital Sapele",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
@@ -440,7 +440,7 @@ export const nursing_projects: ProjectData[] = [
     },
     {
         id: 13,
-        name: "KNOWLEDGE AND PRACTICE OF SELF-BREAST EXAMINATION AMONG STUDENT MIDWIVES IN STATE SCHOOL",
+        name: "Knowledge and Practice of Self-Breast Examination Among Student Midwives in State School",
         project_year: "2023",
         project_description: "",
         project_price: "4000",
