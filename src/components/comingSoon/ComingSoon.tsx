@@ -57,10 +57,10 @@ const ComingSoon: React.FC = () => {
       <h1>Coming Soon!</h1>
       <p>We are working hard to launch more projects. Please check back!</p>
       <div className="countdown" style={{  }}>
-        <div className="time-box">
+        {/* <div className="time-box">
           <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.days}</span>
           <span className="label">Days</span>
-        </div>
+        </div> */}
         <div className="time-box">
           <span style={{fontSize: isMobile ? 16 : 32}} className="number">{timeLeft.hours}</span>
           <span className="label">Hours</span>
