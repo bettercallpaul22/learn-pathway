@@ -355,30 +355,127 @@ export const nursing_projects: ProjectData[] = [
                 paragraph4: "",
             },
             reference:{
-                paragraph1: "Abiola, (2018) knowledge, attitude and practice of post abortion care among women in lagos mainland Local Government Area, J clin sci. 2018;13:82-7",
-                paragraph2: "Adinma RD (2015) post abortion care services in Nigeria from preconception to postpartum. Alan Guttmacher institute (AGI).",
-                paragraph3: "Amna Arshad, (2023) improving safe post-abortion care practices: A study on interventions implemented by Ipas Pakistan.10.3389/fpubh.2013.1004381",
-                paragraph4: "Arrington Lauren.(2016) post abortion care: 20years of strong evidence on emergency treatment, family planning, other programming components. Glo health scipract. 2016;4(3):481-494.http://dx.doi.org/10.9745,GHSP-D-16-00052",
+                paragraph1: "Abiola, (2018) knowledge, attitude and practice of post abortion care among women in lagos mainland Local Government Area, J clin sci. 2018;13:82-7",
+                paragraph2: "Adinma RD (2015) post abortion care services in Nigeria from preconception to postpartum. Alan Guttmacher institute (AGI).",
+                paragraph3: "Amna Arshad, (2023) improving safe post-abortion care practices: A study on interventions implemented by Ipas Pakistan.10.3389/fpubh.2013.1004381",
+                paragraph4: "Arrington Lauren.(2016) post abortion care: 20years of strong evidence on emergency treatment, family planning, other programming components. Glo health scipract. 2016;4(3):481-494.http://dx.doi.org/10.9745,GHSP-D-16-00052",
+            },
+         
+
+        }
+    },
+    {
+        id: 11,
+        name:"KNOWLEDGE OF PREGNANT WOMEN ATTENDING ANTENATAL CLINIC IN CENTRAL HOSPITAL SAPELE TOWARDS THE UTILIZATION OF PREVENTION OF MOTHER TO CHILD TRANSMISSION SERVICES",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Globally an estimated 1.3 million women and girls living with HIV become pregnant each year .In the absence of intervention, the rate of transmission of HIV from a mother living with HIV to her child during pregnancy, labor, delivery or breastfeeding ranges from 15% to 45% .As such, identification of HIV infection should be immediately followed by an offer of linkage to lifelong treatment and care, including support to remain in care and virally suppressed and an offer of partner services. In 2019, 85% of women and girls globally had access to antiretroviral therapy (ART) to prevent mother to child transmission (WHO, 2022).",
+                paragraph2: "In west and central Africa, where 4.7million people, children and adults combined are living with HIV/AID, only 56% of HIV Positive pregnant women were on antiretroviral drugs in 2020. However, the number of new pediatric infections dropped by half between 2010 and 2020 ,to 55,000 among children aged 0-14 years .This is probably due to the increase in the proportion of Pregnant women living with HIV/AIDs who are on antiretroviral treatment. In this regard, Benin ,a west African  Country, is considered a model student according to data published by UNAIDs .This country has achieved the greatest progress, from 13% of Pregnant women living with HIV/AIDs and on antiretroviral treatment to 98% in 2020.Just after Benin ,comes Guinea with a rate of 94% in 2020 compared to 20% in 2010.",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To determine the knowledge of women of child bearing age towards the prevention of mother to child Transmission.",
+                paragraph2: "To access available prevention of mother to child transmission services provided to prevent HIV positive mothers at central hospital Sapele.",
+                paragraph3: "To identify factors influencing utilization of these services among women of child bearing age in Central hospital Sapele.",
+           
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the knowledge of women of child bearing age towards the prevention of mother to child transmission?",
+                paragraph2: "What available antenatal clinic and prevention of mother to child transmission services are provided to the pregnant HIV Positive mothers at the hospital?",
+                paragraph3: "What are the factors influencing utilization of these services at the institution?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "To identify factors influencing utilization of these services among women of child bearing age in Central hospital Sapele.",
+                paragraph2: "Funmi Adesokan (2017) Reproductive Health for all ages.",
+                paragraph3: "Gurmu, T., Bachu, T., Jimma, L., Minyahil, A., Gobezie, T., & Hunduma, D. (2015). Knowledge, attitude, and practice towards PMTCT of HIV among women attending Ambo Hospital ANC Clinic, West Ethiopia. *Journal of AIDS and Clinical Research, 6*(1).",
+                paragraph4: "Haghdoost, S. N. (2015). Assessment of knowledge, attitude, and practice of pregnant women in respect of prevention of Mother-To-Child Transmission (PMTCT) of HIV/AIDS at a selected antenatal clinic in Durban, South Africa. (Doctoral dissertation).",
+            },
+         
+
+        }
+    },
+    {
+        id: 12,
+        name:"PERCEPTION AND ACCEPTANCE OF CAESAREAN SECTION AMONG PREGNANT WOMEN IN CENTRAL HOSPITAL SAPELE.",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: " Caesarean section has been over year a life Saving surgical procedure,performed in the industrialized world so as to save the life of the mother and child during childbirth or, delivery is referred to as caesarean section.this procedure is ranked number one in the delivery report of the medical home . caesarean section has added to many controversial stands from different belief system.",
+                paragraph2: "As a result of this , several factors are seen to affect it outcomes ,hence,the acceptability by different pregnant women.",
+                paragraph3: "Maternal mortality represent the leading cause of death among the pregnant women in most developing countries including Nigeria.",
+                paragraph4: "Furthermore,it is estimated that one-third of all maternal deaths ,globally occur in just two countries ,namely India and Nigeria (Mboho 2014) According to UNFPA(2016) in 2014, India was accountable for about 20% of global maternal deaths (56,000) and Nigeria 14%(40,000). Meanwhile, diseases, deformity and death are terms usually employed to describe the experience of a vast majority of Sub-Sahara African women during pregnancy and birthing.",
+            },
+            objective_of_study:{
+                paragraph1: "Perception of pregnant women toward caesarean section.",
+                paragraph2: "The factors influencing the perception and acceptance of caesarean section",
+                paragraph3: "Measures to promote the perception and acceptance of caesarean section .",
+           
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What are the perception of pregnant women towards caesarean section? ",
+                paragraph2: "What are the factors influencing the acceptance and perception of caesarean section?",
+                paragraph3: "What are the measures to promote the perception and acceptance of caesarean section?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "What are the measures to promote the perception and acceptance of caesarean section?",
+                paragraph2: "Awoyinka BS, Ayinde OA, Omigbodun OA. Acceptability of caesarean delivery to antenatal patients in a tertiary health facility in south west Nigeria. J Obstet Gynecol. 2016;26:208–210. [PubMed]",
+                paragraph3: "Agrawal P. Comparative study – Electrocautery versus scapel in Joel cohen Abdominal Incision in Women Undergoing Caesarean Section. Int j sci Res (internet) 2018 (cited 2020 May 21); 8 Available from;www.ijrs.net.",
+                paragraph4: "Anjita Sinha, Susan, & Biewley (2015). The harmful consequences of prelabour caesarean section on the baby. Obstetrics, Gynaecology and Reproductive Medicine, 22:2.",
             },
          
 
         }
     },
     // {
-    //     id: 4,
-    //     name: "",
-    //     project_year: "",
+    //     id: 11,
+    //     name:"",
+    //     project_year: "2023",
     //     project_description: "",
-    //     project_price:"",
+    //     project_price:"4000",
 
     //     content: {
-    //         paragraph1: "",
-    //         paragraph2: "",
-    //         paragraph3: "",
-    //         paragraph4: "",
+    //         backround_of_study:{
+    //             paragraph1: "",
+    //             paragraph2: "",
+    //             paragraph3: "",
+    //             paragraph4: "",
+    //         },
+    //         objective_of_study:{
+    //             paragraph1: "",
+    //             paragraph2: "",
+    //             paragraph3: "",
+           
+    //             paragraph4: "",
+    //         },
+    //         research_question:{
+    //             paragraph1: "",
+    //             paragraph2: "",
+    //             paragraph3: "",
+    //             paragraph4: "",
+    //         },
+    //         reference:{
+    //             paragraph1: "",
+    //             paragraph2: "",
+    //             paragraph3: "",
+    //             paragraph4: "",
+    //         },
+         
 
     //     }
     // },
+   
 
 ];
 

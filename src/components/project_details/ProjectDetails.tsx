@@ -56,7 +56,7 @@ const ProjectDetails = () => {
       )}
       <div className="container">
         <div className="card">
-          <h1 className="project-name">{project?.name}</h1>
+          <h2 className="project-name">{project?.name}</h2>
           <div className="project-details">
             <h2>Background Of Study:</h2>
             <p>{project.content.backround_of_study.paragraph1}</p>
