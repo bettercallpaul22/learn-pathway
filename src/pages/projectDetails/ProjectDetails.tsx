@@ -16,6 +16,7 @@ const ProjectDetails = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
+
   return (
     <div className="project-details-main">
       <SearchAppBar />
@@ -29,7 +30,7 @@ const ProjectDetails = () => {
             Get Project Document
           </Button>
         </div>
-        <div style={styles.container}>
+        {<div style={styles.container}>
           <h1 style={styles.title}>{project.name}</h1>
           <section style={styles.backgroundStudy}>
             <h2>Background Of Study:</h2>
@@ -86,7 +87,7 @@ const ProjectDetails = () => {
               )}
             </ul>
           </section>
-        </div>
+        </div>}
       </div>
       <Footer />
       <Fade in={open}>

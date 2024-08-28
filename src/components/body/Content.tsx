@@ -34,6 +34,7 @@ import { addSearchText } from "../../features/search_slice";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { Link, NavLink } from "react-router-dom";
+import ComingSoon from "../comingSoon/ComingSoon";
 // import { nursing_projects } from "../../data/data";
 
 const style = {
@@ -84,12 +85,14 @@ const Content = () => {
   const endIndex = startIndex + projectsPerPage;
   const currentProjects = departments[0]?.projects.slice(startIndex, endIndex);
 
+  // console.log("project lenth check", departments.)
 
 
   return (
     <div className="content-main-container">
+
       <h2 className="header-info">{departments[0]?.name}</h2>
-      <div
+    {departments[0].projects.length ? <div
         className="content-container"
         style={{ minWidth: isDesktop ? 700 : 0 }}
       >
@@ -106,6 +109,14 @@ const Content = () => {
           </Paper>
         ))}
       </div>
+
+      :
+
+      <div className="content-container">
+        <ComingSoon/>
+      </div>
+      
+    }
       <Stack
         spacing={2}
         style={{ backgroundColor: "" }}
