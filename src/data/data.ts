@@ -511,6 +511,42 @@ export const nursing_projects: ProjectData[] = [
 
         }
     },
+    {
+        id: 15,
+        name:"Patient Perception and Satisfaction With Health Care Professional",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Primary Health Care forms the bedrock of the health-care services of a country. It is the quality of health care available to the majority of the population that determines the health status of the country and is the best indicator for the level of social development of the country. The important conditions of Primary Health-Care Services are that they should be: Efficient with regard to cost, techniques and organization; readily accessible to those concerned; Acceptable to the community served; at a reasonable cost. Health-care services should be available in a manner and language that is suitable to the community and population it serves and accommodating of local traditions and customs, and at a price which the population can afford.",
+                paragraph2: "",
+                paragraph3: "",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To ascertain patients perception about healthcare professionals in Ibada-Elume primary health care.",
+                paragraph2: "To assess the patients level of satisfaction with health care professional in Ibada-Elume health care center",
+                paragraph3: "To identify factors that will influence patients perception and satisfaction positively with health care professionals in Ibada-Elume primary health care center.",
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the patient perception about care given in Ibada Elume health care center ?",
+                paragraph2: "What is the level of client satisfaction with health care professionals in Ibada Elume health care center?",
+                paragraph3: "What are the factors that will influence patients perception and satisfaction positively in Ibada Elume health care  center?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "Abdosh M (2016) The quality of hospital services in eastern Ethiopia: Patient's Perspective.",
+                paragraph2: "Ethiopian Journal of Health Development. 20 (3):199-200",
+                paragraph3: "Barr JK and Sara Banks (2016) Public Reporting of Hospital Patient Satisfaction: Based on Review of the Literature. Medical Care Research and Review 53: 3-27",
+                paragraph4: "",
+            },
+
+
+        }
+    },
     // {
     //     id: 11,
     //     name:"",
