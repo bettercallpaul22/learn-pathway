@@ -618,6 +618,45 @@ export const nursing_projects: ProjectData[] = [
                 paragraph1: "What suitable measures would promote good nutritional practices among expectant mothers attending antenatal clinic in Erovie primary health center?",
                 paragraph2: "American college of obstetricians and Gynecologist.Physical activity and exercise during pregnancy and postpartum. (2023).(Published erranton appears in Obstet  Gynecol 128;1450Agency mini demographic and health survey. (2014).Addis Ababa.",
                 paragraph3: "Agency mini demographic and health survey. (2014).Addis Ababa. ",
+                paragraph4: "Adikari, A., Sivakenesan, R., Wijesinghe. D., (2016). Assessment of nutritional status of pregnant women in rural area in siri Lanka.",
+            },
+
+
+        }
+    },
+
+
+
+     {
+        id: 18,
+        name:"Knowledge and Practice of Birth Preparedness and Complications Readiness Among Pregnant Women Attending Antenatal Clinic in Central Hospital, Sapele, Delta State",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Although women play a major role in the rearing of children and the management of family affairs, their loss from maternity related complications causes a significant social and personal tragedy.",
+                paragraph2: "Pregnancy and childbirth are normal physiological processes expected to be uneventful with a fruitful outcome of a healthy mother and baby, successful delivery, heralds of joy, happiness, fulfillment and celebration not to the mother alone but also to the relation and community but however pregnancy has a lot of unpredictable acute complications which could lead to death or injury of either one or both mother and child ( kamineni,Vasundhara & Murki, Anuradha & Kota, Venkata Lakshmi, 2017)",
+                paragraph3: "Worldwide women die due to complications during and succeeding pregnancy and childbirth, most of these complications develop during pregnancy are preventable or treatable(WHO 2020)  ",
+                paragraph4: "Universally 810 women die everyday from preventable causes related to pregnancy and childbirth. Approximately 30million women become pregnant annually In African and 250,000 of them die as a result of pregnancy related causes (Endeshaw, Gezie and yashita 2018)",
+            },
+            objective_of_study:{
+                paragraph1: "Universally 810 women die everyday from preventable causes related to pregnancy and childbirth. Approximately 30million women become pregnant annually In African and 250,000 of them die as a result of pregnancy related causes (Endeshaw, Gezie and yashita 2018)",
+                paragraph2: "To identify the factors influencing the practice of birth preparedness and complication readiness among pregnant women ",
+                paragraph3: "To highlight measures that will help promote the  practice of birth preparedness and complication readiness among pregnant women",
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "Are pregnant women attending antenatal clinic in Central Hospital Sapele,Delta State aware about the knowledge and practice of birth preparedness and complication readiness?",
+                paragraph2: "Do pregnant women have the knowledge about the danger signs of birth preparedness and complication readiness during pregnancy?",
+                paragraph3: "To what extent pregnant women practice birth preparedness and complications readiness in Sapele,Delta State?",
+                paragraph4: "What are the factors affecting pregnant women knowledge and practice of birth preparedness and complications readiness in Sapele, Delta State?",
+            },
+            reference:{
+                paragraph1: "What are the factors affecting pregnant women knowledge and practice of birth preparedness and complications readiness in Sapele, Delta State?",
+                paragraph2: "Ademuyiwa, I.Y., Oyediran, O.O., Olowe, A.O., Emikpe, A.O., Oshinyemi, T.E., & Oladehinde,T.E. (2022). Knowledge, practice of and factors influencing birth preparedness and complications readiness among pregnant women attending antenatal clinic in tertiary institution in South-Western Nigeria.Tropical Journal of Health Sciences/ Vol.29 No.4 ",
+                paragraph3: "Adesokan F. O. [2014]. Reproductive health for all ages [3rd ed] Ekiti Bosem Publishers Nigeria Ltd.",
                 paragraph4: "",
             },
 
@@ -626,6 +665,42 @@ export const nursing_projects: ProjectData[] = [
     },
 
 
+     {
+        id: 19,
+        name:"Awareness of Teenage Pregnancy and Its Implications on the Girl Child in Jesse Community, Delta State",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: " One of the salient responsibilities of women is procreation as ordained by God. However there are conditions to be met before a woman could start procreating. In a responsibility of grown up adult who have been found to be physically, economically, emotionally, spiritually and at large psychologically matured; that is why marriage act is highly contracted and celebrated in our present societies",
+                paragraph2: "The observe situation prevalent in both developed and underdeveloped world is that there are girls as young as ten who are sexually active and occasionally become pregnant and give birth, girls between thirteen and nineteen years are now getting pregnant at an alarming rate. Surveys by investigators such as Briggs (2016), Onuzulike (2016) and others revealed that teenagers become sexually active at early age with corresponding high fertility, this condition is widely referred to as teenage pregnancy.",
+                paragraph3: "Teenage pregnancy is defined as 'a teenager of under aged usually within ages of thirteen and nineteen years becoming pregnant'. The term in everyday speech usually refers to women who have not reached legal adulthood who become pregnant, (Oguguo, 2021).",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To ascertain the awareness of women towards teenage pregnancy in Jesse community.",
+                paragraph2: "To highlight factors contributing to teenage pregnancy in Jesse community.",
+                paragraph3: "To identify the implication of teenage pregnancy on the girl child in Jesse community.",
+                paragraph4: "To highlight measures that will help prevent/reduce teenage pregnancy in Jesse community.",
+            },
+            research_question:{
+                paragraph1: "To highlight measures that will help prevent/reduce teenage pregnancy in Jesse community.",
+                paragraph2: "What are the factors contributing to teenage pregnancy in Jesse community?. ",
+                paragraph3: "What are the implications of teenage pregnancies in Jesse community?.",
+                paragraph4: "What are the measures to help reduce/prevent teenage pregnancy in Jesse community?.",
+            },
+            reference:{
+                paragraph1: "What are the measures to help reduce/prevent teenage pregnancy in Jesse community?.",
+                paragraph2: "Briggs, L.A (2016), Adolescent pregnancy; A worldwide concern. Lagos, Timi Hyacinth Enterprises.",
+                paragraph3: "Brown, J. (2021). Parental outcomes in Teenage mothers. Journals of obstetrics and Gynecology of India,4, (1) 30.",
+                paragraph4: "Dry foos, Joy, G.I. (2015). Adolescent at risk. Prevalence and prevention, Oxford University press New York.",
+            },
+
+
+        }
+    },
 
 
 
