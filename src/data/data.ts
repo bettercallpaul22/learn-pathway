@@ -547,7 +547,47 @@ export const nursing_projects: ProjectData[] = [
 
         }
     },
-    // {
+    {
+        id: 16,
+        name:"Knowledge and Use of Psychoactive Substances Among Young People in Ibada Elume Community",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Psychoactive Substances use constitutes a major public health and social problem world wide with alcohol, tobacco and marijuana being the most commonly used. ( Manyike, Odentunde, Obia 2016).",
+                paragraph2: "According to WHO, psychoactive substances are  chemical substances that when take in or administered into one’s system affect mental processes. ( WHO 2014). It is also defined as drugs that change brain chemistry and alter perception, mood , consciousness, cognition or behaviour ( National institute on drug abuse, 2020)",
+                paragraph3: "Psychoactive Substances including alcohol, tobacco, cannabis and illicit drugs, have the potential to adversely affect the physical and mental health of individuals, especially adolescents and young adults. Understanding the knowledge and patterns of substance use among young people is crucial for developing effective prevention and intervention strategies. These drugs take a huge toll not just financially, but in lost potential in academic achievement, poor health and ultimately death ( Adetunji).",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "To assess the knowledge level of young people regarding psychoactive substance. ",
+                paragraph2: "To identify factors that influence the use of psychoactive substances among young people.",
+                paragraph3: "To identify ways to reduce the use of psychoactive substances among young people.",
+
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What is the knowledge level of young people regarding psychoactive substances in Ibada Elume community ",
+                paragraph2: "What are the factors that influence the use of psychoactive substances among young people in Ibada Elume community ",
+                paragraph3: "What are the ways to reduce the use of psychoactive substances among young people in Ibada Elume community ",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "Atoyebi, O. A., & Atoyebi, O. E. (2013). Pattern of Substance Abuse among Senior Secondary School Students in a Southwestern Nigerian City. International Review of Social Sciences and Humanities, 4(2), 54–65.",
+                paragraph2: "Black, E., Shakeshaft, A., Newton, N., Teesson, M., Farrell, M., & Rodriguez, D. (2017). *Party Drugs/MDMA/Ecstasy - What You Need to Know.* UNSW Sydney: National Drug and Alcohol Research Centre. Retrieved from [URL] on November 13, 2023.",
+                paragraph3: "Darke, S., Lappin, J., & Farrell, M. (2019). *The Clinician's Guide to Illicit Drugs and Health.* Surrey, UK: Silverback Publishing. ISBN: 978-1-912141-11-1.",
+                paragraph4: "Duru, C. B., Oluoha, U. R., Okafor, C. C., Diwe, K. C., Iwu, A. C., Aguocha, C. M., ... et al. (2017). Socio-demographic determinants of psychoactive substance use among students of tertiary institutions in Imo State, Nigeria. 8*(5), 1–9.",
+            },
+
+
+        }
+    },
+
+     
+
+     // {
     //     id: 11,
     //     name:"",
     //     project_year: "2023",
@@ -584,6 +624,50 @@ export const nursing_projects: ProjectData[] = [
 
     //     }
     // },
+
+
+
+
+
+  // },
+
+    //  // {
+    // //     id: 11,
+    // //     name:"",
+    // //     project_year: "2023",
+    // //     project_description: "",
+    // //     project_price:"4000",
+
+    // //     content: {
+    // //         backround_of_study:{
+    // //             paragraph1: "",
+    // //             paragraph2: "",
+    // //             paragraph3: "",
+    // //             paragraph4: "",
+    // //         },
+    // //         objective_of_study:{
+    // //             paragraph1: "",
+    // //             paragraph2: "",
+    // //             paragraph3: "",
+
+    // //             paragraph4: "",
+    // //         },
+    // //         research_question:{
+    // //             paragraph1: "",
+    // //             paragraph2: "",
+    // //             paragraph3: "",
+    // //             paragraph4: "",
+    // //         },
+    // //         reference:{
+    // //             paragraph1: "",
+    // //             paragraph2: "",
+    // //             paragraph3: "",
+    // //             paragraph4: "",
+    // //         },
+
+
+    // //     }
+    // // },
 
 
 ];
