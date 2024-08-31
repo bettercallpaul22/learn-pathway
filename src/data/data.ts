@@ -587,43 +587,43 @@ export const nursing_projects: ProjectData[] = [
 
      
 
-     // {
-    //     id: 11,
-    //     name:"",
-    //     project_year: "2023",
-    //     project_description: "",
-    //     project_price:"4000",
+     {
+        id: 17,
+        name:"Assessment of Social Determinants of Nutritional Practices in Pregnancy Among Expectant Mothers Attending Antenatal Clinic in Erovie Primary Health Center",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
 
-    //     content: {
-    //         backround_of_study:{
-    //             paragraph1: "",
-    //             paragraph2: "",
-    //             paragraph3: "",
-    //             paragraph4: "",
-    //         },
-    //         objective_of_study:{
-    //             paragraph1: "",
-    //             paragraph2: "",
-    //             paragraph3: "",
+        content: {
+            backround_of_study:{
+                paragraph1: "Assessment of social determinants of nutritional practices in pregnancy is an evaluation which involves understanding and analysing the various non medical factors that influences an individual's dietary choices and eating habits during pregnancy. These determinants are environmental conditions in which people are born, live, grow, work, and plays a crucial role in shaping the nutritional outcome and disparities within the population.",
+                paragraph2: "Assessing the social determinants of nutritional practices among expectant mothers examines the various social factors that influences a pregnant woman's dietary choices and nutritional status. These determinants includes: socio-economic status, educational status, cultural beliefs and food availability.",
+                paragraph3: "Socio- economic status is a crucial determinant of nutritional practices in pregnancy. Women from lower socio-economic background may face challenges in assessing and affording nutritious food resulting to inadequate nutrient intake. Limited financial resources may restrict the variety and quality of food choices available to expectant mothers leading to sub- optimal nutritional practices. It can also be associated with pregnancy complications such as: abortion, pre-eclampsia , preterm delivery and eclampsia.( Kings 2013, Obasi 2015, Demi 2016).",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "Ascertain social determinants of nutritional practices in pregnancy among expectant mothers attending antenatal clinic in Erovie primary health center",
+                paragraph2: "Determine nutritional practices in pregnancy among expectant mothers attending antenatal clinic in Erovie primary health center",
+                paragraph3: "Outline measures to promote good nutritional practices in pregnancy among expectant mothers attending antenatal clinic in Erovie primary health center .",
 
-    //             paragraph4: "",
-    //         },
-    //         research_question:{
-    //             paragraph1: "",
-    //             paragraph2: "",
-    //             paragraph3: "",
-    //             paragraph4: "",
-    //         },
-    //         reference:{
-    //             paragraph1: "",
-    //             paragraph2: "",
-    //             paragraph3: "",
-    //             paragraph4: "",
-    //         },
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "What are the social determinants of nutritional practices among expectant mothers attending antenatal clinic in Erovie primary health center?",
+                paragraph2: "What are the nutritional practices in pregnancy among expectant mothers attending antenatal clinic in Erovie primary health center?",
+                paragraph3: "What suitable measures would promote good nutritional practices among expectant mothers attending antenatal clinic in Erovie primary health center?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "What suitable measures would promote good nutritional practices among expectant mothers attending antenatal clinic in Erovie primary health center?",
+                paragraph2: "American college of obstetricians and Gynecologist.Physical activity and exercise during pregnancy and postpartum. (2023).(Published erranton appears in Obstet  Gynecol 128;1450Agency mini demographic and health survey. (2014).Addis Ababa.",
+                paragraph3: "Agency mini demographic and health survey. (2014).Addis Ababa. ",
+                paragraph4: "",
+            },
 
 
-    //     }
-    // },
+        }
+    },
 
 
 
