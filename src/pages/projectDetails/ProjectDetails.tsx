@@ -137,7 +137,7 @@ const ProjectDetails = () => {
               marginBottom: "10px",
             }}
           >
-            File Format: PDF
+            File Format: Docx
           </div>
           <div
             style={{

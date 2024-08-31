@@ -704,7 +704,44 @@ export const nursing_projects: ProjectData[] = [
 
 
 
-  // },
+
+     {
+        id: 20,
+        name:"Attitude and Practice of Health Personnel Towards the Prevention of Nosocomial Infection in Central Hospital Sapele, Delta State",
+        project_year: "2023",
+        project_description: "",
+        project_price:"4000",
+
+        content: {
+            backround_of_study:{
+                paragraph1: "Nosocomial infection also known as hospital acquired infection are defined as infections which are acquired after 48 hours of patient’s admission, such infections are neither present nor incubating prior to a patient’s admission to a given hospital (Aftab, 2015).Nosocomial infection represent a universal serious health problems and a major concerns for the study of both patients and health care providers.",
+                paragraph2: "Nosocomial infections have significant consequences on patients, their families and the community as a whole. The most common consequences of  nosocomial infections are increase morbidity, mortality and length of hospitalization (Garett, 2015). Such consequences contributes substantially to raise with the direct and indirect cost of the health care services, which result in additional costs to treat infected clients, hence such issues waste the available resources which are not already enough especially in developing countries (Ki, 2018).",
+                paragraph3: "Health personnel’s are responsible for providing medications, dressing, sterilization and disinfection. They are involve in more contact with patients than other health care workers. Therefore they are more exposed  to various nosocomial infections as well as the patient, hence, health personnel play a vital role in transmitting these infections and their compliances with infection preventing and control measures. They should be aware in how to prevent transmission of nosocomial infections and be knowledgeable of it’s potential risk to patients and relatives/visitors. Although there are many previous cross sectional studies which revealed the ",
+                paragraph4: "",
+            },
+            objective_of_study:{
+                paragraph1: "Health personnel’s are responsible for providing medications, dressing, sterilization and disinfection. They are involve in more contact with patients than other health care workers. Therefore they are more exposed  to various nosocomial infections as well as the patient, hence, health personnel play a vital role in transmitting these infections and their compliances with infection preventing and control measures. They should be aware in how to prevent transmission of nosocomial infections and be knowledgeable of it’s potential risk to patients and relatives/visitors. Although there are many previous cross sectional studies which revealed the ",
+                paragraph2: "2.To assess the practices of health personnels towards the prevention of nosocomial infection in accident and emergency unit, central hospital Sapele, Delta State.",
+                paragraph3: "3.To identify the preventive measures of nosocomial infection in accident and emergency unit,  central hospital Sapele, Delta State.",
+
+                paragraph4: "",
+            },
+            research_question:{
+                paragraph1: "1.What is the attitude of health personnels towards the prevention of nosocomial infection in accident and emergency unit, central hospital Sapele, Delta State?",
+                paragraph2: "2.What are the practices of health personnels towards the prevention of nosocomial infection in accident and emergency unit, central hospital Sapele, Delta State?",
+                paragraph3: "3.What are the preventive measures of nosocomial infection in accident and emergency unit,  central hospital Sapele, Delta State?",
+                paragraph4: "",
+            },
+            reference:{
+                paragraph1: "What are the preventive measures of nosocomial infection in accident and emergency unit,  central hospital Sapele, Delta State?",
+                paragraph2: "Abbas, M. & Pittet, D. (2016). Surgical site infection prevention: a global priority. Journal of Hospital Infection 93(4):319-322. Available at: www.journalofhospitalinfection.com/article/s0195-6701 (16)30127-X/full text.",
+                paragraph3: "Advisory Committee on Dangerous Pathogens, (2015). Management of Hazard Group 4 viral haemorrhagic fevers and similar human infectious disease of high consequence, ACDP: 1-103.",
+                paragraph4: "",
+            },
+
+
+        }
+    },
 
     //  // {
     // //     id: 11,
